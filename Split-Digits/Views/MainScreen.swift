@@ -2,7 +2,7 @@
 //  ContentView.swift
 //  Split-Digits
 //
-//  Created by MacBookPro on 21/03/1946 Saka.
+//  Created by Bhavin Pathak on 28/06/2024
 //
 
 import SwiftUI
@@ -13,12 +13,10 @@ struct MainScreen: View {
     var body: some View {
         NavigationView{
             VStack {
-                
                 Text("SPLIT DIGITS \(Image(systemName: "arrow.triangle.2.circlepath.doc.on.clipboard"))")
                     .fontWeight(.heavy)
                     .font(.largeTitle)
                     .foregroundColor(.teal)
-                
                 GridLayout(boxes: $viewModel.boxes, onSelect: viewModel.selectBox)
             }
             .alert(isPresented: Binding(
