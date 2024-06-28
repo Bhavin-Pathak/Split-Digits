@@ -2,9 +2,8 @@
 //  GridsViewModel.swift
 //  Split-Digits
 //
-//  Created by Bhavin.
+//  Created by Bhavin Pathak on 28/06/2024
 //
-
 import SwiftUI
 
 class GameViewModels: ObservableObject {
