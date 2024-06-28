@@ -2,9 +2,8 @@
 //  GridView.swift
 //  Split-Digits
 //
-//  Created by MacBookPro on 21/03/1946 Saka.
+//  Created by Bhavin Pathak on 28/06/2024
 //
-
 import SwiftUI
 
 struct GridLayout: View {
