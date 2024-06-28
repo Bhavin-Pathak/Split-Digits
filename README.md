@@ -29,7 +29,7 @@ Run Project On Xcode
 
 ## Screenshots
 
-
+![Split](https://github.com/Bhavin-Pathak/Split-Digits/assets/105209903/d59dca3c-85d3-4e74-8b9b-ed75a27109d1)
 
 
 ## Contributing
