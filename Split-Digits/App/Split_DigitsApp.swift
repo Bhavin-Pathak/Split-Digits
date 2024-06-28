@@ -1,6 +1,5 @@
 //
 //  Split_DigitsApp.swift
-//  Split-Digits
 //
 //  Created by Bhavin Pathak on 28/06/2024
 //
