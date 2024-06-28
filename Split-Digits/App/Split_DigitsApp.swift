@@ -2,7 +2,7 @@
 //  Split_DigitsApp.swift
 //  Split-Digits
 //
-//  Created by MacBookPro on 21/03/1946 Saka.
+//  Created by Bhavin Pathak on 28/06/2024
 //
 
 import SwiftUI
@@ -11,7 +11,7 @@ import SwiftUI
 struct Split_DigitsApp: App {
     var body: some Scene {
         WindowGroup {
-            GameScreen()
+            MainScreen()
         }
     }
 }

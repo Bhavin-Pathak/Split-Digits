@@ -7,23 +7,23 @@
 
 import SwiftUI
 
-struct GridBoxView: View {
-    @Binding var box: Grids
+struct GridBoxLayout: View {
+    @Binding var box: GameModels
     
     var body: some View {
         ZStack {
             if box.isMatched {
-                Color.green.opacity(0.1)
+                Color.orange.opacity(0.5)
                 Text("\(box.value)")
                     .foregroundColor(.black)
                     .font(.title2)
             } else if box.isRevealed {
-                Color.green
+                Color.orange
                 Text("\(box.value)")
                     .foregroundColor(.black)
                     .font(.title2)
             } else {
-                Color.orange
+                Color.indigo
             }
         }
         .frame(width: 50, height: 50)

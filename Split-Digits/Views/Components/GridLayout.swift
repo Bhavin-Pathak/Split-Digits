@@ -7,10 +7,10 @@
 
 import SwiftUI
 
-struct GridView: View {
+struct GridLayout: View {
     
-    @Binding var boxes: [Grids]
-    let onSelect: (Grids) -> Void
+    @Binding var boxes: [GameModels]
+    let onSelect: (GameModels) -> Void
     //MARK: Column Count
     let columns: [GridItem] = Array(repeating: .init(.flexible()), count: 6)
     
@@ -18,7 +18,7 @@ struct GridView: View {
         //MARK: Grid Layout
         LazyVGrid(columns: columns, spacing: 10) {
             ForEach($boxes.indices, id: \.self) { index in
-                GridBoxView(box: $boxes[index])
+                GridBoxLayout(box: $boxes[index])
                     .onTapGesture {
                         onSelect(boxes[index])
                     }
